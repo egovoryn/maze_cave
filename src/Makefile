@@ -19,9 +19,6 @@ install: build
 uninstall:
 	rm -rf $(HOME)/Desktop/MazeApp
 
-dvi:
-	open maze.html
-
 dist:
 	@rm -rf backup_maze
 	@mkdir backup_maze
